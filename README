@@ -1,0 +1,36 @@
+CodeIgniter /application folder.
+
+Postup na instalaciu(Ubuntu):
+1. Chod na tuto stranku a klikni fork: https://github.com/RegioPlanet/regioplanet-codeigniter
+2. cd /var/www
+3. git init
+4. git clone git@github.com:tvojusername/regioplanet-codeigniter.git
+5. cd regioplanet-codeigniter/
+6. git remote add upstream git@github.com:tvojusername/regioplanet-codeigniter.git
+7. zlozka application/ by mala byt na mieste :)
+8. stiahni: CodeIgniter_2.1.0.zip
+9. rozbal vsetky adresare a subory OKREM application/ (system,user_guide,index.php,license.txt) 
+do /var/www/regioplanet-codeigniter/
+10. http://localhost/regioplanet-codeigniter/
+
+Kto pracoval s CodeIgniterom, si to vie nastavit aj sam :) 
+Potom odporucam zmenit nastavenia na DB a ostatne default nastavenia.
+
+
+
+Regionalne spravodajstvo - RegioNoviny Team.
+Copyright (C) 2012  Regionoviny.sk
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
